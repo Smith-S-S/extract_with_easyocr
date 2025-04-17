@@ -1,1 +1,0 @@
-This notebook demonstrates three different computer vision techniques for automatically reading analog pressure
