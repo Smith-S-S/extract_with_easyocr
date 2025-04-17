@@ -1,0 +1,58 @@
+image_adjustments:
+  brightness:
+    min: -100
+    max: 100
+    default: 0
+  contrast:
+    min: -100
+    max: 100
+    default: 0
+  highlights:
+    min: -100
+    max: 100
+    default: 0
+  shadows:
+    min: -100
+    max: 100
+    default: 0
+  whites:
+    min: -100
+    max: 100
+    default: 0
+  blacks:
+    min: -100
+    max: 100
+    default: 0
+
+presets:
+  digital_meter:
+    brightness: -50
+    contrast: 53
+    highlights: 41
+    shadows: -12
+    whites: 46
+    blacks: 53
+  analog_meter:
+    brightness: 0
+    contrast: 0
+    highlights: 0
+    shadows: 0
+    whites: 0
+    blacks: 0
+  gauge:
+    brightness: 0
+    contrast: 0
+    highlights: 0
+    shadows: 0
+    whites: 0
+    blacks: 0
+
+app_config:
+  page_title: "Image Light Adjustment"
+  layout: "wide"
+  allowed_file_types: ["jpg", "jpeg", "png"]
+
+ocr_config:
+  languages: ['en']
+  min_confidence: 0.6        # Only accept results with confidence >= 0.6
+  number_only: true          # Only extract numbers
